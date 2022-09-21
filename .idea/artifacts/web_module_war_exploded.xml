@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-module:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_module_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-module" />
+          <element id="library" level="application" name="jquery" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.17.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.17.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.17.1" />
+          <element id="library" level="project" name="Maven: com.lmax:disruptor:3.4.2" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.10" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="web-module/web/Web" />
+    </root>
+  </artifact>
+</component>

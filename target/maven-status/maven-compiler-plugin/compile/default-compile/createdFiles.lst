@@ -1,0 +1,10 @@
+gc\webPro\service\UserService.class
+gc\webPro\servlets\ServletLogin.class
+gc\webPro\servlets\ServletRegister.class
+gc\webPro\dao\impl\UserDaoImpl.class
+gc\webPro\utils\JDBCUtil.class
+gc\webPro\pojo\User.class
+gc\webPro\dao\basedao\BaseDao.class
+gc\webPro\service\impl\UserServiceImpl.class
+gc\webPro\servlets\ServletTest.class
+gc\webPro\dao\UserDao.class

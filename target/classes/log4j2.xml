@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config" monitorInterval="30" >
+
+    <Properties>
+        <Property name="my_pattern">[%-5level %d{yyyy.MM.dd HH:mm:ss}] %c.%M->%m%n</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${my_pattern}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+
+<!--        <AsyncLogger name="gc" level="debug" includeLocation="false" additivity="false">这个异步有点耗性能原因不明-->
+<!--            <AppenderRef ref="console"/>-->
+<!--        </AsyncLogger>-->
+        <Root level="debug" >
+            <AppenderRef ref="console"/>
+        </Root>
+
+    </Loggers>
+</Configuration>
+
+
+
